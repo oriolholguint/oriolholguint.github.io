@@ -1,0 +1,164 @@
+@media all and (max-width: 420px){
+
+    *{
+        padding: 0vw;
+    }
+    
+    .header{
+        height: 80vw;
+    }
+    
+    .navbar{
+        height: 15vw;
+    }
+    
+    .logo{
+        font-size: 4vw;
+    }
+    
+        .logo a{
+            text-align: center;
+        }
+    
+        .menu a{
+            padding: 0vw 1vw;
+            font-size: 2.75vw;
+        }
+    
+    /*.social{
+
+    }*/
+    
+        .social img{
+            width: 6.5vw;
+        }
+    
+    .texto-principal{
+        padding-top: 20vw;
+    }
+
+        .texto-principal h2{
+            font-size: 6vw;
+            padding: 2vw 0vw;
+        }
+
+        .texto-principal hr{
+            border: .5vw solid white;
+            width: 70vw;
+        }
+    
+    .main{
+        padding: 2vw;
+    }
+    
+    .desc-article{
+        flex-flow: column wrap;
+        background-color: white;
+        padding: 1vw 3vw;
+        align-items: center;
+    }
+    
+        .desc-article img{
+            width: 50vw;
+            padding: 3vw 5vw;
+        }
+    
+        .desc-article p{
+            font-size: 4vw;
+            padding: 3vw 3vw;
+            text-align: justify;
+        }
+
+        .desc-article ul{
+            text-align: center;
+            font-size: 4vw; 
+            padding: 4vw 0vw;
+        }
+    
+    .articles{
+        background-color: black;
+        flex-flow: column nowrap;
+        padding: 2vw 0vw;
+    }
+    
+        .article{
+            background-color: white;
+            padding: 2vw 0vw;
+            border-top: .5vw solid #000;
+            border-bottom: .5vw solid #000;
+            min-height: 110vw;
+        }
+    
+            .article img{
+                padding: 1vw 3vw;
+            }
+    
+            .article h3{
+                padding: 3vw 3vw;
+            }
+    
+            .article p{
+                padding: 1vw 3vw;
+                font-size: 4vw;
+            }
+    
+    .footer{
+        padding: 1vw 2vw;
+    }
+    
+        .footer-menu{
+            flex-flow: row-reverse wrap;
+            text-align: center;
+            background-color: white;
+        }
+    
+            .footer-logo{
+                background: white;
+                flex: 1 1 100%;
+                order: 10;
+                padding: 5vw 0vw
+            }
+    
+            .footer-projects{
+                background: white;
+                flex: 1 1 50%;
+                order: 5;
+                padding: 5vw 0vw;
+            }
+        
+            .footer-blog{
+                background: white;
+                flex: 1 1 50%;
+                order: 5;
+                padding: 5vw 0vw;
+            }
+                
+            /*Listas de habilidades y de footer proyecto y blogs*/
+            ul li{
+                padding-bottom: 3vw;
+            }
+    
+            .footer-contact{
+                background: white;
+                flex: 1 1 100%; 
+                padding: 5vw 0vw;   
+                
+            }
+    
+                .footer-contact h3{
+                    padding-bottom: 5vw;
+                }
+
+                .footer-contact button{
+                    padding: 2vw;
+                }
+    
+        .footer-copy{
+            background: grey;
+            border-top: 1vw solid #000;
+            text-align: center;
+            padding-top: 5vw;
+            padding-bottom: 3vw;
+        }
+    
+    }
