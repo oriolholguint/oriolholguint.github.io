@@ -1,4 +1,4 @@
-@media all and (max-width: 420px){
+@media all and (max-width: 650px){
 
     *{
         padding: 0vw;
@@ -48,7 +48,7 @@
         }
     
     .main{
-        padding: 2vw;
+        border: 0vw solid black;
     }
     
     .desc-article{
@@ -56,6 +56,7 @@
         background-color: white;
         padding: 1vw 3vw;
         align-items: center;
+        border: 0.5vw solid black;
     }
     
         .desc-article img{
@@ -84,8 +85,7 @@
         .article{
             background-color: white;
             padding: 2vw 0vw;
-            border-top: .5vw solid #000;
-            border-bottom: .5vw solid #000;
+            border: .5vw solid #000;
             min-height: 110vw;
         }
     
@@ -135,7 +135,7 @@
                 
             /*Listas de habilidades y de footer proyecto y blogs*/
             ul li{
-                padding-bottom: 3vw;
+                padding-bottom: 4vw;
             }
     
             .footer-contact{
@@ -146,7 +146,7 @@
             }
     
                 .footer-contact h3{
-                    padding-bottom: 5vw;
+                    padding-bottom: 4vw;
                 }
 
                 .footer-contact button{
