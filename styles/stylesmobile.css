@@ -75,6 +75,10 @@
             font-size: 4vw; 
             padding: 4vw 0vw;
         }
+
+        .desc-article ul li{
+            padding: 2vw;        
+        }
     
     .articles{
         background-color: black;
@@ -86,7 +90,7 @@
             background-color: white;
             padding: 2vw 0vw;
             border: .5vw solid #000;
-            min-height: 110vw;
+            /*min-height: 110vw;*/
         }
     
             .article img{
@@ -125,6 +129,10 @@
                 order: 5;
                 padding: 5vw 0vw;
             }
+
+                .footer-projects ul li{
+                    padding: 1vw;
+                }
         
             .footer-blog{
                 background: white;
@@ -132,12 +140,11 @@
                 order: 5;
                 padding: 5vw 0vw;
             }
-                
-            /*Listas de habilidades y de footer proyecto y blogs*/
-            ul li{
-                padding-bottom: 4vw;
+            
+            .footer-blog ul li{
+                padding: 1vw;
             }
-    
+
             .footer-contact{
                 background: white;
                 flex: 1 1 100%; 

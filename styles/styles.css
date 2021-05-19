@@ -2,6 +2,8 @@
         box-sizing: border-box;
         margin: 0vw;
         padding: 0vw;
+        font-family: Helvetica, Verdana, sans-serif;
+
     }
 
     a{
@@ -103,7 +105,7 @@
         display: flex;
         flex-flow: column wrap;
         border: 0vw solid black;
-        
+        padding-bottom: 2vw;
     }
 
         .desc-article{
